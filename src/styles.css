@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  background-color: black;
+  color: darkgray;
+}
+
+.row {
+  display: flex;
+}
+
+.segment {
+  background-color: darkgray;
+  border-radius: 5px;
+  height: 12px;
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.start-value {
+  color: #fff;
+  float: left;
+  font-size: 13px;
+}
+
+.end-value {
+  color: #fff;
+  float: right;
+  font-size: 13px;
+}
