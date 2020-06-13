@@ -21,7 +21,7 @@ const TimelineSegments = ({ data, totalTrackLength }) => {
                 <div
                   className="segment"
                   key={item.id}
-                  style={{ width: `${width}%`, left: `${left}%` }}
+                  style={{ width: `${width}%`, marginLeft: `${left}%` }}
                 >
                   <span className="start-value">{item.start}</span>
                   <span className="end-value">{item.end}</span>
